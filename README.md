@@ -21,6 +21,6 @@ pyautogui.write(mensagem, interval=0.1)
 pyautogui.press('enter')
 ```
 
-Esse código em Python com Pyautogui está disponível no arquivo chamado test.py, onde está a base do nosso bot. Esse código acima serve para que quando der um time de 5 segundos. E é isso, espero que achoe meu repositório útil.
+Esse código em Python com Pyautogui está disponível no arquivo chamado test.py, onde está a base do nosso bot Esse código acima serve para que quando der um time de 5 segundos. E é isso, espero que achoe meu repositório útil.
 
-Me apoie com uma estrela :) ⭐
+Apoie meu projeto com uma estrela |⭐|
