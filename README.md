@@ -1,11 +1,11 @@
-**🤖 Bot com Pyautogui 🚀**  
+# **🤖 Bot com Pyautogui 🚀**  
 
-🎉 **Bem-vindo ao meu projeto de automação com Pyautogui!** 🎉  
+🎉 **Bem-vindo ao meu projeto de automação com Pyautogui!**  
 Aqui você encontrará todos os códigos do meu primeiro bot! Espero que ele seja útil para você. 💡  
 
 ---
 
-### **🤔 O que é Pyautogui?**  
+## **🤔 O que é Pyautogui?**  
 🔥 O **Pyautogui** é uma biblioteca incrível em Python que permite automatizar interações com o seu computador, como:  
 
 🖱️ **Movimentação e clique do mouse**  
@@ -16,7 +16,7 @@ Aqui você encontrará todos os códigos do meu primeiro bot! Espero que ele sej
 
 ---
 
-### **⚙️ Requisitos para usar o projeto**  
+## **⚙️ Requisitos para usar o projeto**  
 
 🛠️ Certifique-se de ter o seguinte configurado:  
 
@@ -36,7 +36,7 @@ pip install pyautogui
 
 ---
 
-### **💻 Exemplo de código do bot**  
+## **💻 Exemplo de código do bot**  
 
 ```python
 import pyautogui
@@ -55,7 +55,7 @@ pyautogui.press('enter')
 
 ---
 
-### **📋 Explicação do Código**  
+## **📋 Explicação do Código**  
 
 1️⃣ ⏳ Aguarda **5 segundos** para garantir que a janela do Discord esteja ativa.  
 2️⃣ ✍️ Digita automaticamente a mensagem desejada, caractere por caractere.  
@@ -63,15 +63,16 @@ pyautogui.press('enter')
 
 ---
 
-### **📁 Arquivos no Repositório**  
+## **📁 Arquivos no Repositório**  
 📄 **test.py:** Contém a base do bot descrita acima.  
 
 ---
 
-### **💡 Dicas Importantes**  
+## **💡 Dicas Importantes**  
 🔐 **Segurança:** Automatize com responsabilidade e evite ações que possam prejudicar seu sistema.  
 🛠️ **Personalização:** Altere a mensagem e o tempo de espera para se adaptar à sua necessidade.  
 
 ---
 
-⭐ **Gostou do projeto? Deixe uma estrela para apoiar!** |⭐|
+## **⭐ Apoie o Projeto!**  
+Se gostou do projeto, deixe uma **estrela** para apoiar! |⭐| 
