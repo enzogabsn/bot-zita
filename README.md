@@ -1,4 +1,4 @@
-# **🤖 Bot com Pyautogui 🚀**  
+# **🤖 Bot Zita 🚀**  
 
 🎉 **Bem-vindo ao meu projeto de automação com Pyautogui!**  
 Aqui você encontrará todos os códigos do meu primeiro bot! Espero que ele seja útil para você. 💡  
