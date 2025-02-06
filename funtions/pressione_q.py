@@ -3,13 +3,12 @@ import funtions
 import time as t
 import os
 
-def pressione_q():
+def press_q():
+    os.system("cls")
     print("\nPressione Q para Continuar")
     keyboard.wait('Q')  # Espera até que a tecla 'Q' seja pressionada para continuar
     while True:
         if keyboard.read_event():
-            funtions.print_espera.print_espera()  # Chama a função de espera no arquivo print_espera.py
-            print("Programa carregado com sucesso!")
-            t.sleep(2)
+            t.sleep(0.3)
             os.system("cls")
             break
