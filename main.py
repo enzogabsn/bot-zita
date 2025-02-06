@@ -16,7 +16,7 @@ print("Bem-vindo ao Bot Zita")
 print("-="*20)
 print("Esse programa serve para você automatizar o seu dia a dia somente digitando um comando no terminal, \npara isso, leia no repositório do GitHub para ver todos os comandos que pode ser utilizados.")
     
-funtions.pressione_q.pressione_q()  # Chama a função pressione_q
+funtions.pressione_q.press_q()  # Chama a função pressione_q
     
 # Usuário digita o comando desejado
 
