@@ -7,11 +7,11 @@ def app():
         os.system("cls")
         print("\033[31mDigite o nome do aplicativo que deseja abrir\033[0m")
         print("Exemplo: VSCode")
-        app = str(input(""))
-        if app == "" or app == " ":
+        app = str(input("\n"))
+        if app == "" or app == " " or app == "   " or app == "    " or app == "     " or app == "       " or app == "        " or app == "           " or app == "          " or app == "           " or app == "            " or app == "             " or app == "              " or app == "               " or app == "                " or app == "                 " or app == "                  " or app == "                   " or app == "                    " or app == "                     ":
             os.system("cls")
             print("\033[91mERRO: Você deve digitar o nome do seu aplicativo\033[0m")
-            sleep(1)
+            sleep(2)
             continue
         print("Abrindo o aplicativo...")
         pyautogui.press("win")
