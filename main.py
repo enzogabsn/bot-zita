@@ -1,7 +1,7 @@
 import pyautogui
 import time as t
 import os
-import funtions.app, funtions.site, funtions.click_auto, funtions.pegar_posicao, funtions.exit
+import funtions.app, funtions.site, funtions.click_auto, funtions.pegar_posicao
 
 # Tela de boas-vindas
 while True:
