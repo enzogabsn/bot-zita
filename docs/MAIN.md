@@ -49,7 +49,3 @@ while True:
 ```
 
 Observem que na linha **33** nós adicionamos uma condição para caso o usuário digite na linha de comando o seu comando, no caso, você pode escolher, como por exemplo: /youtube, /netflix, /amazon, etc. E na linha **12** do nosso código temos depois de todos esses arquivos o arquivo da sua automação com **pyautogui**, que no exemplo se chama sua_automacao.py. Nunca se esqueca que na hora de criar o arquivo adicione o .py depois do nome dele, para indicar que aquele arquivo está utilizando a extensão do python.
-
-## Kornerxes Studios
-
-**Kornerxes Studios** é o Studio que está desenvolvendo esse projeto, caso queira participar, acesse o nosso **Discord** com o Link abaixo:
