@@ -1,7 +1,7 @@
 import pyautogui
 import time as t
 import os
-import funtions.app, funtions.site, funtions.click_auto, funtions.pegar_posicao
+import funtions.app, funtions.site, funtions.click_auto, funtions.pegar_posicao, funtions.utilitarios
 
 # Tela de boas-vindas
 while True:
@@ -31,6 +31,18 @@ while True:
 
         elif user_input == "/posicao":
             funtions.pegar_posicao.pegar_posicao() # Chama a função pegar_posicao no arquivo pegar_posicao.py
+
+        elif user_input == "/limpar":
+            funtions.utilitarios.limpar_tela() # Limpa a tela do terminal
+
+        elif user_input == "/tecla":
+            funtions.utilitarios.tecla_rapida() # Simula pressionamento de teclas
+
+        elif user_input == "/pesquisa":
+            funtions.utilitarios.pesquisa_google() # Realiza pesquisa no Google
+
+        elif user_input == "/mouse":
+            funtions.utilitarios.mover_mouse() # Move o mouse para posição específica
 
         elif user_input == "/sair":
             funtions.exit.sair() # Chama a função sair no arquivo exit.py
