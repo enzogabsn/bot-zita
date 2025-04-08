@@ -44,3 +44,45 @@ pip install pyautogui
 ## **⭐ Apoie o Projeto!**
 
 Se gostou do projeto, deixe uma **estrela** para apoiar! |⭐| 
+
+## **Comandos Disponíveis**
+
+### **Comandos Básicos**
+- `/aplicativo` - Abre um aplicativo específico
+- `/site` - Abre um site específico
+- `/click` - Realiza cliques automáticos
+- `/posicao` - Captura a posição atual do mouse
+- `/sair` - Encerra o programa
+
+### **Comandos Utilitários**
+- `/limpar` - Limpa a tela do terminal
+- `/tecla` - Simula o pressionamento de teclas de atalho
+- `/pesquisa` - Realiza uma pesquisa no Google
+- `/mouse` - Move o mouse para uma posição específica
+
+## **Como Usar**
+
+1. Clone este repositório
+2. Instale as dependências necessárias:
+```bash
+pip install pyautogui keyboard
+```
+3. Execute o arquivo main.py:
+```bash
+python main.py
+```
+4. Digite um dos comandos disponíveis quando solicitado
+
+## **Requisitos**
+- Python 3.x
+- pyautogui
+- keyboard
+
+## **Contribuição**
+Sinta-se à vontade para contribuir com este projeto! Basta fazer um fork e enviar um pull request.
+
+## **Licença**
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## **Créditos**
+Desenvolvido por Kornerxes Studios
