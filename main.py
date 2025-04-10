@@ -17,38 +17,37 @@ while True:
     os.system("cls")
     # Usuário insere o comando desejado
 
+    # Mapeamento de comandos para funções
+    comando_funcoes = {
+        "/aplicativo": funtions.app.app,
+        "/site": funtions.site.abrir_site,
+        "/click": funtions.click_auto.click_automatico,
+        "/posicao": funtions.pegar_posicao.pegar_posicao,
+        "/limpar": funtions.utilitarios.limpar_tela,
+        "/tecla": funtions.utilitarios.tecla_rapida,
+        "/pesquisa": funtions.utilitarios.pesquisa_google,
+        "/mouse": funtions.utilitarios.mover_mouse,
+    }
+
     while True:
         os.system("cls")
-        user_input = input("\033[33mDigite o comando desejado: \033[0m")
-        if user_input == "/aplicativo":
-            funtions.app.app()  # Chama a função app no arquivo app.py
-
-        elif user_input == "/site":
-            funtions.site.abrir_site()  # Chama a função site no arquivo site.py
-
-        elif user_input == "/click":
-            funtions.click_auto.click_automatico()  # Chama a função click_auto no arquivo click_auto.py
-
-        elif user_input == "/posicao":
-            funtions.pegar_posicao.pegar_posicao() # Chama a função pegar_posicao no arquivo pegar_posicao.py
-
-        elif user_input == "/limpar":
-            funtions.utilitarios.limpar_tela() # Limpa a tela do terminal
-
-        elif user_input == "/tecla":
-            funtions.utilitarios.tecla_rapida() # Simula pressionamento de teclas
-
-        elif user_input == "/pesquisa":
-            funtions.utilitarios.pesquisa_google() # Realiza pesquisa no Google
-
-        elif user_input == "/mouse":
-            funtions.utilitarios.mover_mouse() # Move o mouse para posição específica
-
-        elif user_input == "/sair":
-            funtions.exit.sair() # Chama a função sair no arquivo exit.py
+        user_input = input("\033[33m\nDigite o comando desejado: \033[0m")
+        
+        if user_input in comando_funcoes:
+            try:
+                comando_funcoes[user_input]()  # Executa a função correspondente ao comando
+            except Exception as e:
+                print(f"Erro ao executar o comando '{user_input}': {e}")
+        elif user_input == "":
+            print("ERRO: Nenhum comando foi digitado.")
         else:
-            os.system("cls")
-            print("\033[91mERRO: Você deve digitar um dos comandos válidos\033[0m") # Sistema para repetir o loop de verificação de comando do programa
-            t.sleep(2)
-            os.system("cls")
-            continue
+            # Pesquisa por comandos que contenham o texto digitado
+            sugestoes = [cmd for cmd in comando_funcoes.keys() if user_input in cmd]
+            if sugestoes:
+                os.system("cls")
+                print("\033[36mSugestões de comandos encontrados:\033[0m")
+                for sugestao in sugestoes:
+                    print(f" - {sugestao}")
+                input()
+            else:
+                print("ERRO: Comando inválido. Nenhuma sugestão encontrada.")
