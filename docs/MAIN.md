@@ -1,6 +1,6 @@
 # Bot com Pyautogui
 
-Esse bot serve para automatizar e ajudar as pessoas a automatizar o seu dia a dia. O nosso sistema funciona assim: você cria um arquivo na pasta "commands" do projeto, coloque qualquer nome (como pro exemplo: auto_youtube), importe o arquivo no início do arquivo principal, chamado main.py (import funtions.commands.sua_automacao.sua_automacao) e criar um condição abaixo de outras condições. O código abaixo vai explicar melhor como funciona:
+Esse bot serve para automatizar e ajudar as pessoas a automatizar o seu dia a dia. O nosso sistema funciona assim: você cria um arquivo na pasta "commands" do projeto, coloque qualquer nome (como pro exemplo: auto_youtube), importe o arquivo no início do arquivo principal, chamado main.py (import funtions.commands.sua_automacao.nome_da_funcao_da_sua_automacao) e no arquivo main.py e procurar pela variável comandos_funcoes conforme o padrão dos outros comandos. O código abaixo vai explicar melhor como funciona:
 
 Para melhor entender como criar seus comandos e utilizalos veja o código abaixo:
 
