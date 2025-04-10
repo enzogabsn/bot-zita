@@ -1,4 +1,4 @@
-# funtions
+# Funtions
 
 **funcions** é o arquivo onde guarda todas as automações de nosso projeto, como a função exit e a função press_q. 
 Esses dois arquivos são para rodar o arquivo main.py, então nós recomendamos que você não modifique eles. Caso 
