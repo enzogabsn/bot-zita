@@ -65,7 +65,7 @@ Se gostou do projeto, deixe uma **estrela** para apoiar! |⭐|
 1. Clone este repositório
 2. Instale as dependências necessárias:
 ```bash
-pip install pyautogui keyboard
+pip install -r requirements.txt
 ```
 3. Execute o arquivo main.py:
 ```bash
