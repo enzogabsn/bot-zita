@@ -33,7 +33,14 @@ def click_automatico():
                 sleep(1)
                 system("cls")
                 pyautogui.click(posicao)
-                print("\033[32mLocal clicado com sucesso!\033[0m")
+                str_local_clicado = pyautogui.position()
+                local_clicado = f'x={str_local_clicado.x}, y={str_local_clicado.y}'
+                if local_clicado.x == posicao.x and local_clicado.y == posicao.y:
+                    system("cls")
+                    print("\033[32mLocal clicado com sucesso!\033[0m")
+                else:
+                    system("cls")
+                    print("\033[91mERRO: Local não foi clicado ou o usuário tirou ele\033[0m")
                 sleep(3)
                 print("\nPressione Enter para encerrar o programa")
                 input_enter_2 = input()
